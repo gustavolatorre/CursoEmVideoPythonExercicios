@@ -1,5 +1,6 @@
 nome = str(input('Digite seu nome completo: ')).strip()
 lista_nome = nome.split()
+
 print(f'''Analisando seu nome...
 Seu nome em maiúsculo é {nome.upper()}
 Seu nome em minúsculo é {nome.lower()}
