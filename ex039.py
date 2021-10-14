@@ -13,3 +13,4 @@ elif idade > 18:
     print(f'Seu alistamento foi em {ano_atual - (idade - 18)}')
 else:
     print('Você tem que se alistar IMEDIATAMENTE!')
+s
