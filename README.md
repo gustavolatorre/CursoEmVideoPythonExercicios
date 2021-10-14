@@ -1,7 +1,7 @@
 # CursoEmVideoPythonExercicios
 
-Exercícios que resolvi do curso de Python da plataforma Curso em Vídeo.
+Exercises that I solved from the Python course on the "Curso em Vídeo" platform.
 
-Exercícios 01 a 35: Python 3 - Mundo 1 [40 horas de curso]
+Exercises 01 to 35: Course Python 3 - Mundo 1 [40 hours]
 
-Link de acesso a plataforma: https://www.cursoemvideo.com/
+Access link to the platform: https://www.cursoemvideo.com/
