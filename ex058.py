@@ -1,6 +1,5 @@
 import random
 
-
 print('=-'*30)
 print('Vou pensar em um número entre 0 e 10. Tente adivinhar!')
 print('=-'*30)
