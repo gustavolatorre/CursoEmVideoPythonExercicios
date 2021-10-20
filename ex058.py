@@ -13,14 +13,11 @@ while num_jogador != num_computador:
 
   contador = contador + 1
 
-  if num_jogador == num_computador:
-    print('PARABÉNS! Você conseguiu me vencer!')
-  else:
-    if num_jogador > num_computador:
-      print('Menos... Tente outra vez.')
-    if num_jogador < num_computador:
-      print('Mais... Tente outra vez.')
+  if num_jogador > num_computador:
+    print('Menos... Tente outra vez.')
+  if num_jogador < num_computador:
+    print('Mais... Tente outra vez.')
 
   num_jogador = int(input('Qual é o seu novo palpite? '))
 
-print(f'Acertou com {contador} tentativas!')
+print(f'Você acertou com {contador} tentativas!')
