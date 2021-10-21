@@ -3,7 +3,6 @@ razao = int(input('Razão: '))
 
 pa = termo
 contador = 1
-cont_aux = 1
 total = 0
 opcao = 10
 
