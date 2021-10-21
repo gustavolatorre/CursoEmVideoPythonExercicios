@@ -1,4 +1,4 @@
-resposta = 'S'
+resposta = 'S'  
 soma = 0
 contador = 0
 maior = 0
