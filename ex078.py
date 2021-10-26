@@ -15,10 +15,10 @@ for i in range(0, 5):
 print('-='*20)
 print(f'Você digitou os valores {lista}')
 print(f'O maior valor digitado foi {maior} nas posições ', end='')
-for i, v in enumerate(lista):
-    if v == maior:
-        print(i, end=' ')
+for indice, valor in enumerate(lista):
+    if valor == maior:
+        print(indice, end=' ')
 print(f'\nO menor valor digitado foi {menor} nas posições ', end='')
-for i, v in enumerate(lista):
-    if v == menor:
-        print(i, end=' ')
+for indice, valor in enumerate(lista):
+    if valor == menor:
+        print(indice, end=' ')
