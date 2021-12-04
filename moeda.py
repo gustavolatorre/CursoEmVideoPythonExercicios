@@ -1,21 +1,21 @@
-def aumentar(valor, pctAumento):
+def aumentar(valor, pctAumento, format=False):
     resultado = valor + (valor * (pctAumento/100))
-    return resultado
+    return resultado if format is False else moeda(resultado)
 
 
-def diminuir(valor, pctDiminuir):
+def diminuir(valor, pctDiminuir, format=False):
     resultado = valor - (valor * (pctDiminuir/100))
-    return resultado
+    return resultado if format is False else moeda(resultado)
 
 
-def dobro(valor):
+def dobro(valor, format=False):
     resultado = valor * 2
-    return resultado
+    return resultado if format is False else moeda(resultado)
 
 
-def metade(valor):
+def metade(valor, format=False):
     resultado = valor / 2
-    return resultado
+    return resultado if format is False else moeda(resultado)
 
 
 def moeda(valor=0, moeda='R$'):
